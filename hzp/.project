@@ -2,16 +2,23 @@
 <projectDescription>
 	<name>hzp</name>
 
+	<comment></comment>
+
+
 	<comment>Create By HBuilder</comment>
 
 	<comment></comment>
+
 
 	<projects>
 	</projects>
 	<buildSpec>
 		<buildCommand>
 
+
+
 			<name>com.aptana.ide.core.unifiedBuilder</name>
+
 
 			<name>org.eclipse.wst.common.project.facet.core.builder</name>
 			<arguments>
@@ -50,11 +57,15 @@
 		<buildCommand>
 			<name>com.genuitec.eclipse.ast.deploy.core.DeploymentBuilder</name>
 
+
+
+
 			<arguments>
 			</arguments>
 		</buildCommand>
 	</buildSpec>
 	<natures>
+
 
 		<nature>com.aptana.projects.webnature</nature>
 	</natures>
@@ -78,6 +89,7 @@
 			</matcher>
 		</filter>
 	</filteredResources>
+
 
 		<nature>com.genuitec.eclipse.ast.deploy.core.deploymentnature</nature>
 		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
