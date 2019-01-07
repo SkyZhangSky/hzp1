@@ -1,0 +1,13 @@
+.a{
+	border: 1px solid red;
+}
+
+#o{
+	width: 100px;
+	height: 200px;
+	color: red;
+}
+
+ul li:hover a{
+	background-color: red;
+}
