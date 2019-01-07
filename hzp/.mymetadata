@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-module
   type="WEB"
+
   name="337hhq alz"
   id="myeclipse.1528006152309"
   context-root="/337hhq alz"
   j2ee-spec="5.0"
   archive="337hhq alz.war">
+
+  name="hzp"
+  id="myeclipse.1528006152309"
+  context-root="/337hhq alz"
+  j2ee-spec="5.0"
+  archive="hzp.war">
+
   <attributes>
     <attribute name="webrootdir" value="WebRoot" />
   </attributes>
