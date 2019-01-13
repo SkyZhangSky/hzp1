@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!--A. 配置和数据库连接的相关的信息-->
+        <!--oracle数据库的驱动-->
+        <property name="connection.driver_class">oracle.jdbc.driver.OracleDriver</property>
+        <!--配置url-->
+        <property name="connection.url">jdbc:oracle:thin:@localhost:1521:XE</property>
+        <!--配置用户名和密码-->
+        <property name="connection.username">testing</property>
+        <property name="connection.password">testing</property>
+
+        <!--配置一个数据库的方言-->
+        <property name="hibernate.dialect">org.hibernate.dialect.Oracle10gDialect</property>
+
+        <!--是否显示sql语句-->
+        <property name="show_sql">true</property>
+        <!--是否格式化sql语句-->
+        <property name="format_sql">true</property>
+
+        <!--update - 如果不存在表,则第一次创建,以后就是更新
+
+            create - 永远都是先删除再创建-->
+        <property name="hbm2ddl.auto">update</property>
+
+        <!--配置映射的实体类-->
+        <mapping class="tech.aistar.entity.User"></mapping>
+    </session-factory>
+</hibernate-configuration>
