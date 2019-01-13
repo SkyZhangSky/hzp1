@@ -1,0 +1,26 @@
+#login{
+    /*设置边框的大小,线条,颜色*/
+    border: 1px solid #999;
+    /*设置div的宽度*/
+    width: 50%;
+    /**div居中显示**/
+    margin: auto;
+    /**margin padding关于css中的盒子模型中的内容**/
+    padding: 20px;
+    /**距离相邻元素上边的距离是50px**/
+    margin-top: 50px;
+    /*设置边框为圆角*/
+    border-radius: 20px;
+
+    /*设置边框的阴影部分*/
+    box-shadow: 2px 2px 4px #000;
+}
+
+#login_text{
+    /*设置字体颜色*/
+    color: white;
+    /*设置字体阴影*/
+    text-shadow: 2px 2px 0px #000;
+    /*设置字体的大小*/
+    font-size: 30px;
+}
